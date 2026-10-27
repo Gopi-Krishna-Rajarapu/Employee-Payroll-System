@@ -9,6 +9,13 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 
 from employee_storage import add_employee as save_employee, get_employees as load_employees, save_employees
 
+import streamlit as st
+st.set_page_config(
+    page_title="Employee Payroll System",
+    page_icon="💼",
+    layout="wide",
+)
+
 app = FastAPI(
     title="Employee Payroll System",
     description="A simple payroll calculator built to practise Python concepts.",
