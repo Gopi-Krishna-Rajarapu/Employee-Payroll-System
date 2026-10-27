@@ -94,3 +94,9 @@ if page == "Dashboard":
 
 
 elif page == "Employees":
+    st.subheader("Employee Directory")
+
+    if not employees:
+        st.info("No employees yet. Add your first employee.")
+    else:
+        st.dataframe(display_rows(employees), use_container_width=True)
