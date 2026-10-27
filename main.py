@@ -13,7 +13,7 @@ app = FastAPI(
     title="Employee Payroll System",
     description="A simple payroll calculator built to practise Python concepts.",
     version="1.1.0",
-
+)
 # Employee details are persisted in employees.txt. These lists are used while the app runs.
 employees = []
 payroll_records = []  # Payroll history is still in memory for this learning version.
