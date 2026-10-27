@@ -1,2 +1,0 @@
-1,Gopi,IT,Junior Developer,234000.00,True,2026-10-27
-2,Rajarapu Gopi Krishna,IT,Junior Developer,234000.00,False,2026-10-27
